@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <h1 class="title">Hello World! </h1>
+      <p id="currentTime"></p>
+      <script src="script.js"></script>
+  </body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Input Example</title>
+  <style>
+    /* Basic styling for the page */
+    body {
+      font-family: sans-serif;
+      margin: 20px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <label for="username">Enter your username:</label>
+  <input type="text" id="username">
+  <button onclick="showGreeting()">Submit</button>
+
+  <p id="output"></p>
+
+  <script>
+    function showGreeting() {
+      const usernameInput = document.getElementById('username');
+      const username = usernameInput.value;
+      const outputParagraph = document.getElementById('output');
+      outputParagraph.textContent = "Welcome, " + username + "!"; 
+      window.location.href="homepage.html"
+    }
+  </script>
+
+</body>
+</html>

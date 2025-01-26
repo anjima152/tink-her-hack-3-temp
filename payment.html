@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Payment Result</title>
+</head>
+<body>
+
+  <h1>Payment Result</h1>
+
+  <div id="result"></div>
+
+  <script>
+    // Simulate payment success (replace with actual server-side logic)
+    var isPaymentSuccessful = true; // Change to false for unsuccessful scenario
+
+    if (isPaymentSuccessful) {
+      // Payment successful
+      document.getElementById("result").innerHTML = "<h2>THANK YOU! Payment Successful.</h2>"; 
+    } else {
+      // Payment failed
+      document.getElementById("result").innerHTML = "<h2>FAILED! Payment Unsuccessful.</h2>"; 
+    }
+  </script>
+
+</body>
+</html>

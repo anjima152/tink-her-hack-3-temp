@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Journey Planner</title>
+</head>
+<body>
+
+  <h2>Plan Your Journey</h2>
+
+  <label for="start">Starting Point:</label>
+  <input type="text" id="start" name="start"><br><br>
+
+  <label for="end">Ending Point:</label>
+  <input type="text" id="end" name="end"><br><br>
+
+  <button onclick="showJourney()">Plan Journey</button>
+
+  <p id="journey"></p>
+
+  <script>
+    function showJourney() {
+      const startPoint = document.getElementById("start").value;
+      const endPoint = document.getElementById("end").value;
+
+      if (startPoint && endPoint) {
+        document.getElementById("journey").innerHTML = 
+          "Your journey starts at " + startPoint + " and ends at " + endPoint + "."; 
+      } else {
+        document.getElementById("journey").innerHTML = 
+          "Please enter both starting and ending points.";
+         }
+        windows.location.href="dista.html"
+    }
+  </script>
+
+</body>
+</html>
