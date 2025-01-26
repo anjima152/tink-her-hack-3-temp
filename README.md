@@ -8,26 +8,27 @@
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: [Alfiya Sahla] - [Govt. engineering college-Thrissur]
+- Member 2: [Anuja.C] - [Govt. engineering college-Thrissur]
+- Member 3: [Anjima P] - [Govt. engineering college-Thrissur]
 
 ### Hosted Project Link
 [mention your project hosted project link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+[AWA-Adventure Without Anxiety is a user friendly website mainly built for the purpose of seeking travel guidance .
+all the required informations  confined in one place ,within one's fingertips]
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+[difficulties faced by one in tracking down place ,payments etc as he/she starts off with their course of journey. ]
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+[providing the required facilties that suffices one's need during the journey]
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
+- [HTML,JAVA]
 - [Frameworks used]
 - [Libraries used]
 - [Tools used]
